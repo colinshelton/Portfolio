@@ -7,13 +7,12 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-green">
         <a class="navbar-brand" href="index.html">Colin Shelton</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,96 +33,83 @@
         </div>
       </nav>
 
-      <!-- Jumbotro say something nice about your work -->
+      <!-- Jumbotron -->
 
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4">View My Work</h1>
+          <p class="lead"></p>
         </div>
       </div>
 
-      <!-- 6x cards + grid system -->
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."> 
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."> 
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."> 
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-          </div>
-        </div>
-      </div>
+      <!-- 6x cards + grid system + media query -->
 
       <div class="container">
+        <div class="grid">
         <div class="row">
           <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."> 
+            <div class="card" id="Game" style="width: 18rem;">
+        <img src="Assets/Game.jpg" class="card-img-top" alt="Photo of game dice by Riho Kroll on Unsplash"> 
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">RPS Game</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
           </div>
           <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."> 
+            <div class="card" id="Refractor" style="width: 18rem;">
+        <img src="Assets/code.jpg" class="card-img-top" alt="Photo by Chris Ried on Unsplash"> 
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Code Refractor</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
           </div>
           <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."> 
+            <div class="card" id="API" style="width: 18rem;">
+        <img src="Assets/Google.jpg" class="card-img-top" alt="Photo of Google logo by Lauren Edvalson on Unsplash"> 
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">API Frontend Project</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card" id="ASP" style="width: 18rem;">
+        <img src="Assets/net.jpg" class="card-img-top" alt="Photo of a tennis net by pan xiaozhen on Unsplash"> 
+        <div class="card-body">
+          <h5 class="card-title">ASP.NET App</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" id="Final" style="width: 18rem;">
+        <img src="Assets/trophy.jpg" class="card-img-top" alt="Photo of a trophy by Giorgio Trovato on Unsplash"> 
+        <div class="card-body">
+          <h5 class="card-title">Final Project</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" id="Awesome" style="width: 18rem;">
+        <img src="Assets/awesome.jpg" class="card-img-top" alt="Photo of umbrellas by Daniel Mingook Kim on Unsplash"> 
+        <div class="card-body">
+          <h5 class="card-title">Awesome Project</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
           </div>
         </div>
       </div>
-
-      <!-- <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."> 
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div> -->
-      
-
+      </div>
 </body>
+
+<footer class="navbar sticky-top navbar-light">
+  <a class="navbar-brand" href="#">Fixed bottom</a>
+</footer>
+
 </html>
