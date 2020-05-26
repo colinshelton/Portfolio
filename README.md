@@ -1,32 +1,25 @@
 # Responsive-Portfolio
 
-# My Ideas/Content/Goals
--look like a Google site 
--design inspo https://www.quintoandar.com.br/
+## Description 
 
-## About 
+The Responsive Portfolio is a screen responsive web application.  Users can learn more about Colin Shelton and his work as a software developer. 
 
--Photo, Description about me 
--footer with contact info 
+The site is built from scratch and implements the following technologies, Bootstrap CDN, Google Fonts CDN, and Font Awesome CDN. Bootstrap grid system and components organize and load script-based components, such as a form and cards. Google Fonts contribute to styling and Font Awesome loads social media icons. 
 
-## Portfolio 
-Content: Jumbotron
-Now:
--Code Refractor Project 
+Further technologies and projects will be added. 
 
-Later:
--API Frontend Project 
--ASP.NET App
--Final Project 
+## Installation 
 
-General Notes:
-Form:
-Make match, 
-have muted text in box 
-Add message 
+N/A
 
-Focus on making this match the example 
+## Usage
 
-Don’t forget:
--Img discrepancy -img style in css or img fluid in card
--navbar drop down does not work 
+Follow link to webpage. 
+
+## Credits
+
+N/A
+
+## License 
+
+N/A
