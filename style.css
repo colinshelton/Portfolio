@@ -13,45 +13,21 @@ nav {
 
 }
 
+p {
+    float: inline-start;
+}
+
 .container {
-    width: 100%;
-    padding: 20px;
-    margin: 20px;
+    padding: 1rem;
+    margin: 1rem;
     background-color: cornflowerblue;
 
 }
 
-@media screen and (min-width: 35em) {
-
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .col-sm {
-        width: 50%;
-    }
-
-    .col-sm:last-child {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 55em) {
-
-    .container {
-        flex-wrap: nowrap;
-
-    }
-
-    .col-sm,
-    .col-sm:last-child {
-        width: 33.333%;
-    }
-}
-
 .card {
-    padding: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    margin: 10px;
 }
 
 .card-img-top {
@@ -71,5 +47,9 @@ nav {
 footer {
     background-color: #F4B400;
     
+}
+
+.fab {
+    color: black;
 }
 
