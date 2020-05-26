@@ -5,6 +5,7 @@ html {
 
 nav {
     background-color: #0f9d58;
+    margin-right: auto;
 }
 
 .jumbotron {
@@ -41,6 +42,7 @@ p {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+    border: white solid 5px;
 
 }
 
@@ -52,4 +54,5 @@ footer {
 .fab {
     color: black;
 }
+
 
